@@ -1,0 +1,5 @@
+public/assets/**/*.js
+public/assets/**/*.js.map
+.DS_Store
+.pos
+.vscode

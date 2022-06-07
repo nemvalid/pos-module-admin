@@ -1,10 +1,3 @@
-{% parse_json default_menu_items %}
-  {
-    "title": "Dashboard",
-    "url": "/admin"
-  }
-{% endparse_json %}
-
 {% function admin_menu_items = 'modules/core/hook/fire', hook: 'admin_menu' %}
 
 <div
